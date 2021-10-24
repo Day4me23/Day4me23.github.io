@@ -11,4 +11,13 @@
 
 #banner {
     background-color: #212121;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+#info {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    
 }
