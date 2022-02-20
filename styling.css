@@ -21,6 +21,12 @@
   padding-top: 15px;
   padding-bottom: 15px;
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 .sidebar{
   position: fixed;
   left: 0;
