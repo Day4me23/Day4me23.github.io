@@ -19,6 +19,14 @@
     text-align: center;
     font-size: 50px;
   }
+  p {
+    color: #AAAAAA;
+    font-size: 24px;
+    text-align: center;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
 </style>
 <body>
   <div class="sidebar open">
@@ -88,47 +96,95 @@
       </li>
     </ul>
   </div>
+
+
+  <section class="home-section" style="background-color: #212121;">
+    
         <div style="background-color: #121212;
             padding-top: 1px;
             padding-bottom: 1px;">
-          <h1 id="home">Requiem: The Lost Voices</h1>
+          <h1 id="video">The Trials</h1>
         </div>
-      
+
+        <img src = "images/TheTrials.png" class = "center" style = "width: 90%; height: 90%">
+
+        <div style="background-color: #121212;
+            padding-top: 1px;
+            padding-bottom: 1px;">
+          <h1 id="video">Project Description</h1>
+        </div>
+
+        <div class="textPad">
+          <p>This is going to be my test description text to check where is this going to be showing up on the page. I am curious if it going to auto resize or not, that is the main reason for why I am typing so much here... I hope it works! :))))</p>
+
+      </div>
+
+        <div style="background-color: #121212;
+            padding-top: 1px;
+            padding-bottom: 1px;">
+          <h1 id="programming">Programming</h1>
+        </div>
+
+        <div style="background-color: #121212;
+            padding-top: 1px;
+            padding-bottom: 1px;">
+          <h1 id="levelDesign">Level Design</h1>
+        </div>
+
+        <div style="background-color: #121212;
+            padding-top: 1px;
+            padding-bottom: 1px;">
+          <h1 id="concept">Concept</h1>
+        </div>
+
+        <div style="background-color: #121212;
+            padding-top: 1px;
+            padding-bottom: 1px;">
+          <h1 id="download">Project Download</h1>
+        </div>
+
+        <div class="textPad">
+          <p>If you want to download The Trials, <a href = "https://drive.google.com/file/d/1NEJdPl4wqBJt-YYzZOimBpQ3kPKT_F1j/view">Click Here!</a></p>
+      </div>
 
 
-        <!---------------------------------------------------------------------------------->
+</section>
+
+
+
+    <!---------------------------------------------------------------------------------->
       <script>
-        let sidebar = document.querySelector(".sidebar");
-        let closeBtn = document.querySelector("#btn");
-        let searchBtn = document.querySelector(".bx-search");
-    
-        closeBtn.addEventListener("click", () => {
-          sidebar.classList.toggle("open");
-          menuBtnChange();//calling the function(optional)
-        });
-    
-        searchBtn.addEventListener("click", () => { // Sidebar open when you click on the search iocn
-          sidebar.classList.toggle("open");
-          menuBtnChange(); //calling the function(optional)
-        });
-    
-        $('.home').click(function (e) {
-          $(document).scrollTop(100)
-        });
-    
-        $('.contact').click(function (e) {
-          $(document).scrollBottom(0)
-        });
-    
-        // following are the code to change sidebar button(optional)
-        function menuBtnChange() {
-          if (sidebar.classList.contains("open")) {
-            closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");//replacing the iocns class
-          } else {
-            closeBtn.classList.replace("bx-menu-alt-right", "bx-menu");//replacing the iocns class
-          }
-        }
-      </script>
+    let sidebar = document.querySelector(".sidebar");
+    let closeBtn = document.querySelector("#btn");
+    let searchBtn = document.querySelector(".bx-search");
+
+    closeBtn.addEventListener("click", () => {
+      sidebar.classList.toggle("open");
+      menuBtnChange();//calling the function(optional)
+    });
+
+    searchBtn.addEventListener("click", () => { // Sidebar open when you click on the search iocn
+      sidebar.classList.toggle("open");
+      menuBtnChange(); //calling the function(optional)
+    });
+
+    $('.home').click(function (e) {
+      $(document).scrollTop(100)
+    });
+
+    $('.contact').click(function (e) {
+      $(document).scrollBottom(0)
+    });
+
+    // following are the code to change sidebar button(optional)
+    function menuBtnChange() {
+      if (sidebar.classList.contains("open")) {
+        closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");//replacing the iocns class
+      } else {
+        closeBtn.classList.replace("bx-menu-alt-right", "bx-menu");//replacing the iocns class
+      }
+    }
+  </script>
 </body>
 
 </html>
