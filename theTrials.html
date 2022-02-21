@@ -113,11 +113,13 @@
         <div style="background-color: #121212;
             padding-top: 1px;
             padding-bottom: 1px;">
-          <h1 id="video">Project Description</h1>
+          <h1 id="description">Project Description</h1>
         </div>
 
         <div class="textPad">
-          <p>This is going to be my test description text to check where is this going to be showing up on the page. I am curious if it going to auto resize or not, that is the main reason for why I am typing so much here... I hope it works! :))))</p>
+          <p>You are the current subject attempting to complete the trials. You must navigate through the training rooms to grasp what kind of obstacles are 
+            going to be ahead of you. Make sure you master these skills before beginning the trials, as your mistakes will not be as forgiving!
+          </p>
 
       </div>
 
@@ -127,14 +129,44 @@
           <h1 id="programming">Programming</h1>
         </div>
 
-        <img src = "images/TheTrials.png" class = "center" style = "width: 90%; height: 90%">
+        <video class = "center" style = "width: 90%; height: 90%"controls loop>
+          <source src="videos/TrialsLadderClimb.mp4" type="video/mp4">
+          Your browser does not support HTML video.
+        </video>
+        <div class="textPad">
+          <p>Walk into blue obstacles which act as a ladder under a set layer type. The movement system is able to recognize this layer and allows the 
+            player to climb the object. This shows an example of how the player is able to slide down a slope to gain momentum to jump the gap and catch the 
+            ladder to climb up.
+          </p>
+          </div>
+          <video class = "center" style = "width: 90%; height: 90%"controls loop>
+            <source src="videos/TrialsPlatformMove.mp4" type="video/mp4">
+            Your browser does not support HTML video.
+          </video>
+          <div class="textPad">
+            <p>Pink objects are moving platforms which may move in a variety of ways. The platforms in the above example move from a specific world position to 
+              an additional position. When the player collides, the platform becomes a parent of the player allowing to player to have fluid movement with the platform.
+              When the player is no longer hitting the trigger platform, the child is removed from the platform allowing the player to continue on.
+            </p>
+            </div>
+            <video class = "center" style = "width: 90%; height: 90%"controls loop>
+              <source src="videos/TrialsButtonPress.mp4" type="video/mp4">
+              Your browser does not support HTML video.
+            </video>
+            <div class="textPad">
+              <p>Players will need to interact with available buttons in the world to access different sections of the level. Upon interaction, players are visually 
+                notified with a button color change along with an audio que. These buttons are able to do a variety of actions including opening doors, removing objects, 
+                and triggering platform movement.
+              </p>
+              </div>
 
-        
         <div style="background-color: #121212;
             padding-top: 1px;
             padding-bottom: 1px;">
           <h1 id="levelDesign">Level Design</h1>
         </div>
+        <img src = "images/TheTrials.png" class = "center" style = "width: 90%; height: 90%">
+
 
         <div style="background-color: #121212;
             padding-top: 1px;
