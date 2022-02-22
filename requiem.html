@@ -72,6 +72,7 @@
         </a>
         <span class="tooltip">Level Design</span>
       </li>
+    <!--
       <li>
         <a href="#concept">
           <i class='bx bx-edit'></i>
@@ -79,6 +80,7 @@
         </a>
         <span class="tooltip">Concept</span>
       </li>
+      -->
       <li>
         <a href="#download">
           <i class='bx bx-download'></i>
@@ -103,20 +105,23 @@
         <div style="background-color: #121212;
             padding-top: 1px;
             padding-bottom: 1px;">
-          <h1 id="video">The Trials</h1>
+          <h1 id="video">Requiem: The Lost Voices</h1>
         </div>
-
-        <img src = "images/TheTrials.png" class = "center" style = "width: 90%; height: 90%">
+        <video class = "center" style = "width: 90%; height: 90%" controls autoplay>
+          <source src="videos/Level1End.mp4" type="video/mp4">
+          Your browser does not support HTML video.
+        </video>
 
         <div style="background-color: #121212;
             padding-top: 1px;
             padding-bottom: 1px;">
-          <h1 id="video">Project Description</h1>
+          <h1 id="description">Project Description</h1>
         </div>
 
         <div class="textPad">
-          <p>This is going to be my test description text to check where is this going to be showing up on the page. I am curious if it going to auto resize or not, that is the main reason for why I am typing so much here... I hope it works! :))))</p>
-
+          <p>You wake up to find yourself chained up in an ancient mysterious castle. The memories of those that came before you are scattered about. 
+            Find the Skull to view these memories. Beware: You are not alone.
+          </p>
       </div>
 
         <div style="background-color: #121212;
@@ -125,18 +130,115 @@
           <h1 id="programming">Programming</h1>
         </div>
 
+        <video class = "center" style = "width: 90%; height: 90%"controls loop>
+          <source src="videos/RequiemBoss1.mp4" type="video/mp4">
+          Your browser does not support HTML video.
+        </video>
+        <div class="textPad">
+          <p>Level one includes an AI navmesh that follows the player based on game object tag "Player". This navmesh follows the player constantly at a 
+            slow moving speed which can't be stopped at any point. If the navmesh collides with the player, the scene is restarted.
+          </p>
+          </div>
+          <video class = "center" style = "width: 90%; height: 90%"controls loop>
+            <source src="videos/RequiemBoss2.mp4" type="video/mp4">
+            Your browser does not support HTML video.
+          </video>
+          <div class="textPad">
+            <p>Level two includes another AI navmesh that follows the player while not in view of the player camera. If the navmesh is in current sight of the 
+              player, it will stop all movement and wait until the player looks away to continue to move closer. After a short timespan, a new statue is selected 
+              which will begin to follow the player from a different position.
+            </p>
+            </div>
+            <video class = "center" style = "width: 90%; height: 90%"controls loop>
+              <source src="videos/RequiemChest.mp4" type="video/mp4">
+              Your browser does not support HTML video.
+            </video>
+            <div class="textPad">
+              <p>Chests are able to be opened in a correct order which is randomly selected at runtime. The player is able to view the chest order 
+                by looking at them in the mirror to reveal the secret number.
+              </p>
+              </div>
+
+              <video class = "center" style = "width: 90%; height: 90%"controls loop>
+                <source src="videos/RequiemLevel3.mp4" type="video/mp4">
+                Your browser does not support HTML video.
+              </video>
+              <div class="textPad">
+                <p>Upon objective completion, players are able to interact with the skull to continue on to the next level.
+                </p>
+                </div>
+
+                <video class = "center" style = "width: 90%; height: 90%"controls loop>
+                  <source src="videos/RequiemLoading.mp4" type="video/mp4">
+                  Your browser does not support HTML video.
+                </video>
+                <div class="textPad">
+                  <p>A simple scene transition is added to the end of each level with an audio narration which connects the story to each level.
+                  </p>
+                  </div>
+
         <div style="background-color: #121212;
             padding-top: 1px;
             padding-bottom: 1px;">
           <h1 id="levelDesign">Level Design</h1>
         </div>
-
+        <img src = "images/RequiemLevel1.png" class = "center" style = "width: 90%; height: 90%">
+        <div class="textPad">
+          <p>Level one requires the player to navigate their way through a maze to find a vile full of the lost memories of the ones before you. Once the 
+            player has found the vile, they need to navigate their way to the skull to complete the level. All while attmepting to traverse through the maze 
+            there is an AI constantly chasing the player attempting to catch them.
+          </p>
+          </div>
+        <img src = "images/RequiemDoor.png" class = "center" style = "width: 90%; height: 90%">
+        <div class="textPad">
+          <p>While progressing through level one, the player will find themselves circling back around to previous areas of the maze 
+            by opening doors to new and old dead ends. The idea behind adding these doors was to create a more challenging maze where 
+            the player would have more to remember when attempting to backtrack.
+          </p>
+          </div>
+        <img src = "images/RequiemEnemy.png" class = "center" style = "width: 90%; height: 90%">
+        <div class="textPad">
+          <p>Level two places the player in a large empty room surrounded by what is thought to be lifeless statues. In reality there is one statue 
+            that is following the player while they are not looking. The creature from the previous level is also constantly following the player aswell 
+            as the new creature.
+          </p>
+          </div>
+        <img src = "images/RequiemLevel2End.png" class = "center" style = "width: 90%; height: 90%">
+        <div class="textPad">
+          <p>The player must successfully navigate through the room and find four crystal remnants before interacting with the skull.
+          </p>
+          </div>
+          <img src = "images/RequiemMirror.png" class = "center" style = "width: 90%; height: 90%">
+        <div class="textPad">
+          <p>Level three introduces a mirror in which the player is able to see behind them at all times.
+          </p>
+          </div>
+        <img src = "images/RequiemNeon.png" class = "center" style = "width: 90%; height: 90%">
+        <div class="textPad">
+          <p>The player is introduced to the final creature which is only able to been seen in the reflection of the mirror. 
+            The previous two creatures from the levels before are also chasing the player in this final challenge.
+          </p>
+          </div>
+          <img src = "images/RequiemLevel3.png" class = "center" style = "width: 90%; height: 90%">
+        <div class="textPad">
+          <p>Throughout the open room, the player will notice five chests located throughout. The player must look through the mirror 
+            at the chest to find its numerical value. The player will then need to open the chests in the correct ascending order. This requires 
+            the player to navigate throughout the room multiple times while avoiding all three creatures.
+          </p>
+          </div>
+          <img src = "images/RequiemSkull.png" class = "center" style = "width: 90%; height: 90%">
+          <div class="textPad">
+            <p>Upon completion of the final level, the player is given a final cutscene of themselves traversing through the three levels 
+              to find they were ones reliving their own memories they have been hearing.
+            </p>
+            </div>
+        <!--
         <div style="background-color: #121212;
             padding-top: 1px;
             padding-bottom: 1px;">
           <h1 id="concept">Concept</h1>
         </div>
-
+        -->
         <div style="background-color: #121212;
             padding-top: 1px;
             padding-bottom: 1px;">
@@ -144,14 +246,9 @@
         </div>
 
         <div class="textPad">
-          <p>If you want to download The Trials, <a href = "https://drive.google.com/file/d/1NEJdPl4wqBJt-YYzZOimBpQ3kPKT_F1j/view">Click Here!</a></p>
+          <p>If you want to download Requiem: The Lost Voices, <a href = "https://zaidisx.itch.io/requiem">Click Here!</a></p>
       </div>
-
-<!--changing my code in a text editor-->
 </section>
-
-
-
     <!---------------------------------------------------------------------------------->
       <script>
     let sidebar = document.querySelector(".sidebar");
