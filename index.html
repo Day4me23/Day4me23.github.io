@@ -2,343 +2,844 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="styling.css">
-  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Dayne Portfolio Webpage</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
-<style>
-  p {
-    color: #AAAAAA;
-    font-size: 24px;
-  }
 
-  h3 {
-    color: #E4E9F7;
-    font-size: 30px;
-  }
+<body class="index-page">
 
-  h1 {
-    color: #B986FD;
-    text-align: center;
-    font-size: 50px;
-  }
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
 
-  .imageTest {
-    vertical-align: middle;
-  }
-
-  html {
-    scroll-behavior: smooth;
-  }
-</style>
-
-<body>
-  <div class="sidebar open">
-    <div class="logo-details">
-
-      <div class="logo_name">Day4me23</div>
-      <i class='bx bx-menu-alt-right' id="btn"></i>
+    <div class="profile-img">
+      <img src="assets/img/Portrait7.jpg" alt="" class="img-fluid rounded-circle">
     </div>
-    <ul class="nav-list">
-      <li>
-        <a href="#home">
-          <i class='bx bx-home'></i>
-          <span class="links_name">Home</span>
-        </a>
-        <span class="tooltip">Home</span>
-      </li>
-      <li>
-        <a href="#aboutMe">
-          <i class='bx bx-user-pin'></i>
-          <span class="links_name">About Me</span>
-        </a>
-        <span class="tooltip">About Me</span>
-      </li>
-      <li>
-        <a href="#experience">
-          <i class='bx bx-bulb'></i>
-          <span class="links_name">Experience</span>
-        </a>
-        <span class="tooltip">Experience</span>
-      </li>
-      <li>
-        <a href="#projects">
-          <i class='bx bx-folder'></i>
-          <span class="links_name">Projects</span>
-        </a>
-        <span class="tooltip">Projects</span>
-      </li>
-      <li>
-        <a href="#research">
-          <i class='bx bx-folder-open'></i>
-          <span class="links_name">Research</span>
-        </a>
-        <span class="tooltip">Research</span>
-      </li>
-      <li>
-        <a href="#contactMe">
-          <i class='bx bxs-contact'></i>
-          <span class="links_name">Contact Me</span>
-        </a>
-        <span class="tooltip">Contact Me</span>
-      </li>
 
-      <li>
-        <a href="https://github.com/Day4me23">
-          <i class='bx bxl-github'></i>
-          <span class="links_name">GitHub</span>
-        </a>
-        <span class="tooltip">GitHub</span>
-      </li>
-    </ul>
-  </div>
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <!-- Uncomment the line below if you also wish to use an image logo -->
+      <!-- <img src="assets/img/logo.png" alt=""> -->
+      <h1 class="sitename">Dayne Farris</h1>
+    </a>
 
-  <section class="home-section" style="background-color: #212121;">
-    <div style="background-color: #121212;
-        padding-top: 1px;
-        padding-bottom: 1px;">
-      <h1 id="home">Home</h1>
+    <div class="social-links text-center">
+      <!--<a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+      <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+      <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>-->
+      <a href="https://www.linkedin.com/in/dayne-farris-709032203/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      <a href="https://day4me23.itch.io/" class="linkedin"><i class="bi bi-controller"></i></a>
+      <a href="https://www.facebook.com/dayne.farris/" class="facebook"><i class="bi bi-facebook"></i></a>
     </div>
-    <div class="imageTest" style="float: left; background-color: #212121;">
-      <div class="box">
-        <img class="image" style="vertical-algin: middle; padding: 30px; float: left;" src="images/Mocap.jpg"
-          alt="Mocap Picture Of Me" width=40% height=40%>
-        <span class="homeText"> My name is Dayne Farris and I am a passionate game developer
-          specifying in Gameplay Programming, Game Design, and Level Design.</span>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+        <li><a href="#volunteer"><i class="bi bi-backpack2 navicon"></i> Volunteer Work</a></li>
+        <li><a href="#testimonials"><i class="bi bi-chat-right-text navicon"></i> Testimonials</a></li>
+        
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src="assets/img/Landscape.jpg" alt="" data-aos="fade-in" class="">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <h2>Dayne Farris</h2>
+        <p><span class="typed" data-typed-items="Innovation, Passion, Dedication"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
       </div>
-    </div>
 
-    </div>
-    <!------------------------------------------------------------------------------------------------------------------------------------------------------------>
-    <div style="background-color: #121212;
-        padding-top: 1px;
-        padding-bottom: 1px;">
-      <h1 id="aboutMe">About Me</h1>
-    </div>
-    <div class="textPad">
-      <p style="text-align: center;">I am currently a student at the University of Wisconsin Whitewater achieving my
-        Bachelor's degree in Media Arts and Game Development with a programming emphasis.
-        I am also studying a minor in Web Development and Administration. Throughout my time at UW Whitewater, I have
-        been a proud straight A student.</p>
-      <p style="text-align: center;">While progressing through my curriculum, I am actively searching for new ways to
-        challenge myself through internal and
-        external opportunities. Some of the activites I have participated in go as followed.</p>
-      <dl style="text-align: center; color: #AAAAAA; font-size: 20px;">
-        <dt class="subTable">Media Arts and Game Development Tutor</dt>
-        <dd>-I work on campus as a lab monitor where I am able to tutor students in my major.</dd>
-        <dt class="subTable">Motion Capture Studio</dt>
-        <dd>-Trained to use the campus MOCAP studio where I work with the Motive and MotionBuilder software.</dd>
-        <dt class="subTable">GAMED Club President</dt>
-        <dd>-President of the Game & Media Entertainment Developers club where we have weekly workshops involving differing
-          aspects of game development in the current industry.</dd>
-        <dt class="subTable">Independent Study</dt>
-        <dd>-Working 1 on 1 with Professor Nick Hwang on multiple aspects of game development including Level Design,
-          UI, and Objectives.</dd>
-        <dt class="subTable">Game Jams</dt>
-        <dd>-Participated in several game jams with differing group sizes.</dd>
-      </dl>
+    </section><!-- /Hero Section -->
 
-      <p style="text-align: center;">After graduation I am hoping to find a passionate and dedicated studio where I will
-        work on developing some of the best games in the industry.</p>
-    </div>
-    <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-    <div style="background-color: #121212;
-    padding-top: 1px;
-    padding-bottom: 1px;">
-      <h1 id="experience">Experience</h1>
-    </div>
-    <div class="container" style="text-align: center">
-      <div class="row">
-        <div class="col-sm-6">
-          <h3>Software</h3>
-          <p>Unity</p>
-          <p>GitHub</p>
-          <p>Visual Studio</p>
-          <p>Eclipse</p>
-          <p>Adobe Suite</p>
-          <p>Motion Builder</p>
-          <p>Motive</p>
-          <p>Arduino</p>
-          <p>XAMPP</p>
-        </div>
-        <div class="col-sm-6">
-          <h3>Languages</h3>
-          <p>C#</p>
-          <p>Java</p>
-          <p>C++</p>
-          <p>HTML/CSS</p>
-          <p>JavaScript</p>
-          <p>PHP</p>
-          <p>SQL</p>
-        </div>
-        <!--<div class="col-sm-4">
-            <h3>Engines</h3>        
-            <p>Unity</p>
-          </div>-->
-      </div>
-    </div>
+    <!-- About Section -->
+    <section id="about" class="about section light-background" >
 
-    <!-------------------------------------------------------------------------------------------------------------------------->
-    <div style="background-color: #121212;
-    padding-top: 1px;
-    padding-bottom: 1px;">
-      <h1 id="projects">Projects</h1>
-    </div>
-    <div class="container" style="text-align: center">
-      <div class="row">
-        <div class="col-sm-4">
-          <h3>The Trials</h3>
-          <a href="theTrials.html"><img class="image" src="images/TrialsWalls.png" alt="The Trials Image"
-             width=100% height=100% style="padding-top: 35px;"></a>
-        <div id="projects">
-          <dl class="projectText">
-            <dt>C#</dt>
-            <dt>Solo Project</dt>
-            <dt>Independent Study</dt>
-            <dt>Level Design</dt>
-            <dt>Programming</dt>
-          </dl>
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+        <p>With several years of professional and independent experience in the industry, I have had the opportunity to work on multiple shipped projects, personal projects, and team-based collaborations. 
+          Throughout these projects, my expertise has spanned the entire development process—starting from initial concepts and prototyping to testing, iteration, and finally, polish and release. 
+          I thrive in passionate teams that strive to create engaging and memorable experiences while maintaining a strong focus on detail and delivering results in a timely manner.
+        </p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
+            <img src="assets/img/Portrait3.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 content">
+            <h2>Game Developer</h2>
+            <p class="fst-italic py-3">
+              Graduating in 2023 from the University of Wisconsin Whitewater at the top of my class, I am seeking my next exciting opportunity where I can bring my passion, skills, and experience to a dynamic team.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor of Science</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Major:</strong> <span>Media Arts and Game Development - Technology</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Minor:</strong> <span>Computer Science - Web Development</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>25</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>4mestudios@gmail.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>(608)921-4535</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Location:</strong> <span>Janesville Wisconsin, USA</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Availability Status:</strong> <span>Available</span></li>
+                </ul>
+              </div>
+            </div>
+            <!--
+            <p class="py-3">
+              With several years of progessional and independent experience I am looking for a passionate team to create and inovate with.
+            </p>
+            -->
           </div>
         </div>
-        <div class="col-sm-4">
-          <h3>Requiem: The Lost Voices</h3>
-          <a href="requiem.html"><img class="image" src="images/Requiem.png" alt="Requiem Game Image"
-              width=100% height=100%></a>
-          <div id="projects">
-            <dl class="projectText">
-              <dt>C#</dt>
-              <dt>Group Project</dt>
-              <dt>Game Jam</dt>
-              <dt>Level Design</dt>
-              <dt>Programming</dt>
-            </dl>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <h3>Polarity</h3>
-          <a href="polarity.html"><img class="image" src="images/PolarityRoom.png" alt="Polarity Image"
-             width=100% height=100% style="padding-top: 50px;"></a>
-          <dl class="projectText">
-            <dt>C#</dt>
-            <dt>Level Design</dt>
-            <dt>Split Screen</dt>
-            <dt>Game Jam</dt>
-            <dt>First Person</dt>
-            <dt>Puzzle</dt>
-          </dl>
-        </div>
+
       </div>
-    </div>
-    <div style="background-color: #121212;
-    padding-top: 1px;
-    padding-bottom: 1px;">
-      <h1 id="research">Research</h1>
-    </div>
 
-    <div class="container" style="text-align: center">
-      <div class="row">
-        <div class="col-sm-4">
-          <h3>Networking</h3>
-          <a href="development.html"><img class="image"
-              src="images/unity.png" alt="The Trials Image" width=100% height=100%></a>
-          <dl class="projectText">
-            <dt>Photon</dt>
-            <dt>Amount Of Projects</dt>
-            <dt>Time Span</dt>
-          </dl>
-        </div>
-        <div class="col-sm-4">
-          <h3>Artificial Intelligence</h3>
-          <a href="development.html"><img class="image"
-              src="images/unity.png" alt="The Trials Image" width=100% height=100%></a>
-              <dl class="projectText">
-                <dt>Nav Mesh</dt>
-                <dt>Amount Of Projects</dt>
-                <dt>Time Span</dt>
-                <dt>State Machines</dt>
-              </dl>
-        </div>
-        <div class="col-sm-4">
-          <h3>Combat Systems</h3>
-          <a href="development.html"><img class="image"
-              src="images/unity.png" alt="The Trials Image" width=100% height=100%></a>
-              <dl class="projectText">
-                <dt>Ranged/Melee</dt>
-                <dt>Amount Of Projects</dt>
-                <dt>Time Span</dt>
-                <dt>Projectiles Vs Raycast</dt>
-              </dl>
+    </section><!-- /About Section -->
+    
+    <!-- Stats Section -->
+     <!--
+    <section id="stats" class="stats section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Happy Clients</strong> <span>consequuntur quae</span></p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Projects</strong> <span>adipisci atque cum quia aut</span></p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-headset"></i>
+              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hours Of Support</strong> <span>aut commodi quaerat</span></p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-people"></i>
+              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hard Workers</strong> <span>rerum asperiores dolor</span></p>
+            </div>
+          </div>
+
         </div>
 
-    <!--    
-    <div class="col-sm-4">
-      <h3>Building Relationships</h3>
-      <a href="https://github.com/Day4me23/BuildingRelationships"><img class="image" style="padding-top: 35px;"
-          src="images/BuildingRelationships.JPG" alt="Building Relationships Game Image" width=100% height=100%></a>
-      <dl class="projectText">
-        <dt>C#</dt>
-        <dt>Group Project</dt>
-        <dt>Multiplayer Networking</dt>
-        <dt>In Progress</dt>
-        <dt></dt>
-      </dl>
-    </div>
+      </div>
+
+    </section>
   -->
+    <!-- Skills Section
+    <section id="skills" class="skills section light-background">
+
+      
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Skills</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row skills-content skills-animation">
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"><span>HTML</span> <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill"><span>CSS</span> <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill"><span>JavaScript</span> <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"><span>PHP</span> <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill"><span>WordPress/CMS</span> <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill"><span>Photoshop</span> <i class="val">55%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+    Skills Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      </div><!-- End Section Title -->
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Sumary</h3>
+
+            <div class="resume-item pb-0">
+              <h4>Brandon Johnson</h4>
+              <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
+              <ul>
+                <li>Portland par 127,Orlando, FL</li>
+                <li>(123) 456-7891</li>
+                <li>alice.barkley@example.com</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Master of Fine Arts &amp; Graphic Design</h4>
+              <h5>2015 - 2016</h5>
+              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
+              <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
+              <h5>2010 - 2014</h5>
+              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
+              <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Senior graphic design specialist</h4>
+              <h5>2019 - Present</h5>
+              <p><em>Experion, New York, NY </em></p>
+              <ul>
+                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
+                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
+                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
+                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Graphic design specialist</h4>
+              <h5>2017 - 2018</h5>
+              <p><em>Stepping Stone Advertising, New York, NY</em></p>
+              <ul>
+                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
+                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
+                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
+                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>Below is a collection of projects I have contributed to, ranging from professional and independent work to team-based collaborations. Click on any project image to learn more about its development.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">Professional</li>
+            <li data-filter=".filter-product">Personal &amp; Group</li>
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <a href="portfolio-details.html" class="d-block">
+                <img src="assets/img/portfolio/WSSHeader.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Flippfly</h4>
+                  <p>Whisker Squadron: Survivor</p>
+                  
+                </div>
+                </a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <a href="portfolio-details.html" class="d-block">
+                <img src="assets/img/portfolio/WSSGalaxiesHeader.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Flippfly</h4>
+                  <p>Whisker Squadron: Untitled Space Game</p>
+                  
+                </div>
+                </a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content h-100">
+                <a href="portfolio-details.html" class="d-block">
+                <img src="assets/img/portfolio/BTHeader.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Group Project</h4>
+                  <p>Blacksite Theta</p>
+                  
+                </div>
+                </a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content h-100">
+                <a href="portfolio-details.html" class="d-block">
+                <img src="assets/img/portfolio/GMDHeader4.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Independent Project</h4>
+                  <p>Game Mechanic Database</p>
+                  
+                </div>
+                </a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content h-100">
+                <a href="portfolio-details.html" class="d-block">
+                <img src="assets/img/portfolio/SoulboundSurvivorHeader.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Independent Project</h4>
+                  <p>Soulbound Survivor</p>
+                </div>
+                </a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content h-100">
+                <a href="portfolio-details.html" class="d-block">
+                <img src="assets/img/portfolio/BallBursterHeader.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Group Project</h4>
+                  <p>Ball Burster</p>
+                </div>
+                </a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content h-100">
+                <a href="portfolio-details.html" class="d-block">
+                  <img src="assets/img/portfolio/TrialsHeader.png" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Independent Project</h4>
+                    <p>The Trials</p>
+                  </div>
+                </a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content h-100">
+                <a href="portfolio-details.html" class="d-block">
+                  <img src="assets/img/portfolio/AltiusHeader.png" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Independent Project</h4>
+                    <p>Altius</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content h-100">
+                <a href="portfolio-details.html" class="d-block">
+                <img src="assets/img/portfolio/RequiemHeader.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Group Project</h4>
+                  <p>Requiem: The Lost Voices</p>
+                  
+                </div>
+                </a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content h-100">
+                <a href="portfolio-details.html" class="d-block">
+                <img src="assets/img/portfolio/LucidusHeader.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Group Project</h4>
+                  <p>Lucidus</p>
+                  
+                </div>
+              </a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Services Section
+    <section id="services" class="services section">
+
+      
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      </div>
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
+            <div>
+              <h4 class="title"><a href="service-details.html" class="stretched-link">Lorem Ipsum</a></h4>
+              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            </div>
+          </div>
+          
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
+            <div>
+              <h4 class="title"><a href="service-details.html" class="stretched-link">Dolor Sitema</a></h4>
+              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div>
+            <div>
+              <h4 class="title"><a href="service-details.html" class="stretched-link">Sed ut perspiciatis</a></h4>
+              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon flex-shrink-0"><i class="bi bi-binoculars"></i></div>
+            <div>
+              <h4 class="title"><a href="service-details.html" class="stretched-link">Magni Dolores</a></h4>
+              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon flex-shrink-0"><i class="bi bi-brightness-high"></i></div>
+            <div>
+              <h4 class="title"><a href="service-details.html" class="stretched-link">Nemo Enim</a></h4>
+              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
+            <div class="icon flex-shrink-0"><i class="bi bi-calendar4-week"></i></div>
+            <div>
+              <h4 class="title"><a href="service-details.html" class="stretched-link">Eiusmod Tempor</a></h4>
+              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>Services Section -->
+    <!--Volunteer Section-->
+    <section id="volunteer" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Volunteer Work</h2>
+        <p>Here is a list of game development industry events I have participated in. I actively seek out local opportunities to contribute to the growth of game development, particularly in the Wisconsin area.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Badgerland Girl Scouts Game Development Meeting</h3>
+            <div class="resume-item">
+              <h4>Spring 2023</h4>
+              <p><em>Working alongside Filament Games members, I helped the scouts brainstorm character ideas and bring them to life in the form of pixel art. I then supported getting all the scouts 
+                characters imported into the game in Unity so they had an Itch.io link they could navigate to see their characters in action!</em></p>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h3 class="resume-title">University of Wisconsin Whitewater MAGD Expo Judge</h3>
+              <h4>Spring 2024</h4>
+              <p><em>I served as a judge at the 2024 Spring Media Arts and Game Development Expo, where students showcased the projects they had developed throughout the academic year. 
+                As a judge I engaged with each student discussing their work across various areas of game development, including Art, Audio, Physical Games, Digital Games, and Interactive Media.
+                 Our conversations covered their creative process from concept to final product, as well as key lessons learned along the way. My favorite question to ask was how they planned to continue developing or expanding upon their showcased projects. 
+                Finally, each individual I met with recieved feedback written by myself and other judges on their shown work.
+              </em></p>
+            </div><!-- Edn Resume Item -->
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">University of Wisconsin Whitewater GAMED President</h3>
+
+            <div class="resume-item pb-0">
+              <h4>Fall &amp; Spring 2023</h4>
+              <p><em>In my senior year at Whitewater, I served as president of the Game and Media Entertainment Developers club. 
+                My responsibilities included structuring and leading weekly meetings which featured learning activities, development discussions, and industry panels with professionals from local Wisconsin studios such as Filament Games, PUBG, Raven Software, Flippfly, and Lost Boys Interactive. 
+                I also organized and hosted our highly anticipated game jams. During these jams I dedicated my time to mentoring new members, guiding them through their first game development experience in Unity, and assisting with any challenges participants faced. 
+                Leading the club and sharing my passion for game development with fellow students was one of my most rewarding experiences in school.</em></p>
+            </div><!-- Edn Resume Item -->
+
+            <h3 class="resume-title">University of Wisconsin Whitewater Game Development Summer Camp Instructor</h3>
+            <div class="resume-item">
+              <h4>Summer 2022</h4>
+              <p><em>I helped instruct two one week iteration summer camps focused on teaching the fundamental principles of game development. 
+                Over these two weeks I worked one on one with students to bring their unique ideas to life within Unity. 
+                Through group discussions, learning sessions, and a few late-night coding adventures, we successfully guided each student to complete a full gameplay loop of their custom projects.
+                 By the end of each week, every student had a successful build of their game go onto Itch.io.
+              </em></p>
+            </div><!-- Edn Resume Item -->
+          </div>
+        </div>
+      </div>
+    </section><!-- /End Volunteering Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section light-background">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Testimonials</h2>
+        <p>Here are a few testimonials from individuals I have worked with both professionally and on independent projects.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 800,
+              "autoplay": {
+                "delay": 6000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 40
+                },
+                "1200": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 1
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>On the few projects that I have worked with Dayne, he made it his passion to learn and excel inside Unity, bettering his craft and becoming a fierce and professional game developer. He is a highly valued asset to any team that he works with and I would work with him again in a heartbeat.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/AdamProfile.jpg" class="testimonial-img" alt="">
+                <h3>Adam Weber</h3>
+                <h4>Game Engineer</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>I directly managed Dayne for over two years at Flippfly. He was an enthusiastic and hard-working member of the team who was a great team player, and who was always eager to help make our game better. I loved his dedication to his work, and his flexibility in helping out with everything from game system implementation to game design tasks.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/AaronProfile.png" class="testimonial-img" alt="">
+                <h3>Aaron San Filippo</h3>
+                <h4>Flippfly Owner &amp; Creative Director</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Dayne has always been quite enthusiastic about the projects I've shared with him. He always came at it with high energy and enthusiasm, which only pushed me to work even harder on the projects. On top of that, he knew more than I did and was able to easily teach me some valuable lessons that I still use today while I'm working in that codebase</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/AveryProfile.jpg" class="testimonial-img" alt="">
+                <h3>Avery Ackman</h3>
+                <h4>Associate</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>When our team's capstone beat out the other pitches and was greenlit as the game to make, Dayne took it upon himself to set up a team structure for a room of 30+ developers of varying disciplines.
+                    While he helped out the other teams a bunch as well, hands-down his efforts built our mini-department of programmers into a lean, mean, game-making machine.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/JamesProfile.jpg" class="testimonial-img" alt="">
+                <h3>James Zajkowski</h3>
+                <h4>Associate</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+    <!-- Contact Section 
+    <section id="contact" class="contact section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>A108 Adam Street, New York, NY 535022</p>
+                </div>
+              </div>
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call Us</h3>
+                  <p>+1 5589 55488 55</p>
+                </div>
+              </div>
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>info@example.com</p>
+                </div>
+              </div>
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">Your Name</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required="">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="subject-field" class="pb-2">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">Message</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div> End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <!--
+  <footer id="footer" class="footer position-relative light-background">
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">iPortfolio</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="credits">
+        
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
     </div>
-    </div>
-    <!------------------------------------------------------------------------------------------------------------------------->
 
-    <div style="background-color: #121212;
-        padding-top: 1px;
-        padding-bottom: 1px;">
-      <h1 id="contactMe">Contact Me</h1>
-    </div>
-    <p style="text-align: center;">If you wish to contact me, please send me an email at <span
-        style="color:#B986FD;">4mestudios@gmail.com</span> <br><br></p>
+  </footer>
+  -->
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-    <div style="background-color: #121212;
-        padding-top: 1px;
-        padding-bottom: 1px;">
+  <!-- Preloader -->
+  <div id="preloader"></div>
 
-    </div>
-  </section>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-  <script>
-    let sidebar = document.querySelector(".sidebar");
-    let closeBtn = document.querySelector("#btn");
-    let searchBtn = document.querySelector(".bx-search");
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
 
-    closeBtn.addEventListener("click", () => {
-      sidebar.classList.toggle("open");
-      menuBtnChange();//calling the function(optional)
-    });
-
-    searchBtn.addEventListener("click", () => { // Sidebar open when you click on the search iocn
-      sidebar.classList.toggle("open");
-      menuBtnChange(); //calling the function(optional)
-    });
-
-    $('.home').click(function (e) {
-      $(document).scrollTop(100)
-    });
-
-    $('.contact').click(function (e) {
-      $(document).scrollBottom(0)
-    });
-
-    // following are the code to change sidebar button(optional)
-    function menuBtnChange() {
-      if (sidebar.classList.contains("open")) {
-        closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");//replacing the iocns class
-      } else {
-        closeBtn.classList.replace("bx-menu-alt-right", "bx-menu");//replacing the iocns class
-      }
-    }
-  </script>
 </body>
+
 </html>
